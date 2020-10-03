@@ -1,0 +1,419 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(211, 202, 202);
+}
+.mainIndex{
+    background-image: url("imagenes/fondo7.jpg");
+    width: 1349px;
+    height: 100%;
+}
+.mainProduct{
+    background-image: url("imagenes/fondo7.jpg");
+    width: 1349px;
+    height: 100%;
+    height: 180%;
+}
+.mainCliente{
+    background-image: url("imagenes/fondo7.jpg");
+    width: 1349px;
+    height: 101%;
+}
+.mainAbout{
+    background-image: url("imagenes/fondo7.jpg");
+    width: 1349px;
+    height: 101%;
+}
+/*
+#fondo1{
+    position: relative;
+    left: -8px;
+    top: -8px;
+    width: 1349px;
+}
+*/
+button{
+    width: 100%;
+    height: 100%;
+    border: 1px;
+    background-color: transparent;
+    box-shadow:1px  2px 2px black;
+}
+table{
+    border: 1px;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(0deg, transparent, white );
+}
+td{
+    width: 10%;
+    text-align: center;    
+}
+.encabezado{
+    color: white;
+    font-size: 23px;
+    text-shadow:1px  1px 1px black,
+                2px  2px 2px black;
+}
+.iconos{
+    width: 30px;
+    height: 30px;
+}
+.texto{
+    color: black;
+}
+#iconoTelefono{
+    position: absolute;
+    left: 1300px;
+    top: 40px;
+}
+#whatsapp{
+    position: absolute;
+    left: 1175px;
+    top: 30px;
+    font-size: 18px;
+    color: white;
+    text-shadow:2px  2px 2px black;
+}
+#iconoCorreo{
+    position: absolute;
+    left: 1300px;
+    top: 75px;
+}
+#correo{
+    position: absolute;
+    left: 1130px;
+    top: 65px;
+    font-size: 18px;
+    color: white;
+    text-shadow:2px  2px 2px black;
+
+}
+#iconoFB{
+    position: absolute;
+    left: 1300px;
+    top:110px;
+}
+#iconoelectronica{
+    position: absolute;
+    left: 1000px;
+    top:170px;
+}
+#nombre{
+    font-family: Cooper Black;
+    color: white;
+    position: absolute;
+    left: 130px;
+    top: 30px;
+    font-size: 150px;
+    text-shadow:1px  1px 1px black,
+                2px  2px 2px black,
+                3px  3px 3px black,
+                4px  4px 4px black,
+                5px  5px 5px black,
+                6px  6px 6px black;
+}
+#iconotech1{
+    position: absolute;
+    left: 130px;
+    top: 290px;
+}
+#mantra{
+    font-family: Cooper Black;
+    color: white;
+    position: absolute;
+    left: 300px;
+    top: 280px;
+    font-size: 50px;
+    text-shadow: 1px  1px 1px black,
+                 2px  2px 2px black,
+                 3px  3px 3px black,
+                 4px  4px 4px black;
+}
+#text{
+    font-family: cambria;
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 450px;
+    font-size: 23px;
+    text-shadow: 1px  1px 1px black,
+                2px  2px 2px black,
+                3px  3px 3px black,
+                4px  4px 4px black;
+
+}
+#support{
+    position:relative;
+    left: 0px;
+    top: 667px;
+    background: linear-gradient(0deg, rgb(51, 51, 51), transparent);
+    width: 1349px;
+    height: 150px;
+}
+#servicios{
+    position: absolute;
+    left: 40px;
+    top:0px;
+    font-size: 19px;
+}
+#textServices{
+    position: absolute;
+    left: 40px;
+    top:50px;
+}
+#contacto{
+    position: absolute;
+    left: 600px;
+    top: 0px;
+    font-size: 19px;
+}
+#textContacto{
+    position: absolute;
+    left: 600px;
+    top:50px;
+}
+#creditos{
+    position: absolute;
+    left: 900px;
+    top: 100px;
+}
+
+/*pagina de productos*/
+
+.context{
+    background-color: whitesmoke;
+    position: absolute;
+    left: 60px;
+    top: 150px;
+    width: 1228px;
+    height: 900px;
+}
+#tituloPrincipal{
+    font-family: "arial black";
+    color: teal;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 1px  1px 1px black,
+                 2px  2px 2px black,
+                 3px  3px 3px black,
+                 4px  4px 4px black;
+}
+#titulo1{
+    text-align: left;
+    font-family: "Bahnschrift";
+    color: slategray;
+    text-shadow: 1px  1px 1px black,
+                2px  2px 2px black,
+                3px  3px 3px black;
+                
+}
+/*
+#button1{
+    background-color: transparent;
+    position: absolute;
+    left: 80px;
+    top: 250px;
+    width: 100px;
+    height: 100px;
+}
+*/
+#iconoArduino{
+    position: absolute;
+    left: 80px;
+    top: 250px;
+}
+#textArduino{
+    position: absolute;
+    left: 110px;
+    top: 380px;
+    font-family: "Cooper Black";
+    font-size: 18px;
+}
+#iconoIntegrado{
+    position: absolute;
+    left: 550px;
+    top: 250px
+}
+#textIntegrado{
+    position: absolute;
+    left: 520px;
+    top: 380px;
+    font-family: "Cooper Black";
+    font-size: 18px;
+}
+#iconoComponent{
+    position: absolute;
+    left: 1000px;
+    top: 250px
+}
+#textComponent{
+    position: absolute;
+    left: 950px;
+    top: 380px;
+    font-family: "Cooper Black";
+    font-size: 18px;
+}
+#iconoPCB{
+    position: absolute;
+    left: 80px;
+    top: 500px
+}
+#textPCB{
+    position: absolute;
+    left: 130px;
+    top: 650px;
+    font-family: "Cooper Black";
+    font-size: 18px;
+}
+#iconoAutomatas{
+    position: absolute;
+    left: 550px;
+    top: 500px
+}
+#textAutomatas{
+    position: absolute;
+    left: 510px;
+    top: 650px;
+    font-family: "Cooper Black";
+    font-size: 18px;
+}
+#iconoOtros{
+    position: absolute;
+    left: 1000px;
+    top: 500px
+}
+#textOtros{
+    position: absolute;
+    left: 1045px;
+    top: 650px;
+    font-family: "Cooper Black";
+    font-size: 18px;
+}
+#textPagProduct{
+    position: absolute;
+    left: 140px;
+    top: 800px;
+    font-family: "Cooper Black";
+    font-size: 20px;
+    color: slategray;
+}
+/*             Pagina Clientes          */
+#titulo1PagCliente{
+    position: absolute;
+    left: 330px;
+    top: 130px;
+    font-family: "Cooper Black";
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px  1px 1px black,
+                2px  2px 2px black,
+                3px  3px 3px black;
+}
+#formulario{
+    position: absolute;
+    left: 400px;
+    top: 250px;
+    color:white;
+    text-shadow: 1px  1px 1px black,
+                2px  2px 2px black,
+                3px  3px 3px black;
+}
+.textDatos{
+    font-size: 18px;
+}
+.datos{
+    box-shadow:1px  1px 1px black,
+                2px  2px 2px black,
+                3px  3px 3px black,
+                4px  4px 4px black;
+}
+#ciudad{
+    position: absolute;
+    left: 300px;
+    top: 65px;
+}
+#entryCiudad{
+    position: absolute;
+    left: 300px;
+    top: 119px;
+}
+#sexo{
+    position: absolute;
+    left: 300px;
+    top: 138px;
+}
+#sexoMujer{
+    position: absolute;
+    left: 300px;
+    top: 188px;
+}
+#textMujer{
+    position: absolute;
+    left: 330px;
+    top: 170px;
+}
+#sexoHombre{
+    position: absolute;
+    left: 300px;
+    top: 218px;
+}
+#textHombre{
+    position: absolute;
+    left: 330px;
+    top: 200px;
+}
+#bRegistrar{
+    background-color: slateblue;
+    position: absolute;
+    left: 250px;
+    top: 340px;
+    width: 80px;
+    height: 25px;
+    color:white;
+    box-shadow:1px  1px 1px black,
+                2px  2px 2px black,
+                3px  3px 3px black,
+                4px  4px 4px black;
+}
+/*              Pagina about              */
+#titulo1PagAbout{
+    position: absolute;
+    left: 330px;
+    top: 130px;
+    font-family: "Cooper Black";
+    color: white;
+    font-size: 60px;
+    text-shadow: 1px  1px 1px black,
+                2px  2px 2px black,
+                3px  3px 3px black,
+                4px  4px 4px black;
+}
+#contextAbout{
+    position: absolute;
+    left: 200px;
+    top: 250px;
+    font-family: "Cooper Black";
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px  1px 1px black,
+                2px  2px 2px black,
+                3px  3px 3px black,
+                4px  4px 4px black;
+}
+#credit{
+    position: absolute;
+    left: 850px;
+    top: 550px;
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px  1px 1px black,
+                2px  2px 2px black,
+                3px  3px 3px black,
+                4px  4px 4px black;
+}
